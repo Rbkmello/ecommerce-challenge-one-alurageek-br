@@ -1,0 +1,272 @@
+{
+    "categorias": [
+        {
+            "nome": "Sousplats Mundo Animal - Fazendinha",
+            "imagem": "./assets/images/fazenda.png",
+            "produtos": [
+                {
+                    "id": 1,
+                    "nome": "Abelhinha",
+                    "preco": 85.00,
+                    "imagem": "./assets/images/abelha.jpeg",
+                    "descricao": "Sousplat no formato de abelha",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 2,
+                    "nome": "Joaninha",
+                    "preco": 85.00,
+                    "imagem": "./assets/images/joaninha.jpeg",
+                    "descricao": "Sousplat no formato de Joaninha",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 3,
+                    "nome": "Ovelhinha",
+                    "preco": 85.00,
+                    "imagem": "./assets/images/ovelha.jpeg",
+                    "descricao": "Sousplat no formato de ovelha",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 4,
+                    "nome": "Porquinho",
+                    "preco": 85.00,
+                    "imagem": "./assets/images/porco.jpeg",
+                    "descricao": "Sousplat no formato de porco",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 5,
+                    "nome": "Cavalinho",
+                    "preco": 85.00,
+                    "imagem": "./assets/images/cavalo.jpeg",
+                    "descricao": "Sousplat no formato de cavalo",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 6,
+                    "nome": "Vaquinha",
+                    "preco": 85.00,
+                    "imagem": "./assets/images/vaca.jpeg",
+                    "descricao": "Sousplat no formato de vaca",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 7,
+                    "nome": "Cachorrinho",
+                    "preco": 85.00,
+                    "imagem": "./assets/images/cachorro.jpeg",
+                    "descricao": "Sousplat no formato de cachorro",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 8,
+                    "nome": "Gatinho",
+                    "preco": 85.00,
+                    "imagem": "./assets/images/gato.jpeg",
+                    "descricao": "Sousplat no formato de gato",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 9,
+                    "nome": "Coelhinho",
+                    "preco": 85.00,
+                    "imagem": "./assets/images/coelho.jpeg",
+                    "descricao": "Sousplat no formato de coelho",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                }
+            ]
+        },
+        {
+        
+            "nome": "Sousplat Mundo Animal - Safari",
+            "imagem": "./assets/images/safari.png",
+            "produtos": [
+                {
+                    "id": 10,
+                    "nome": "Leãozinho",
+                    "preco": 85.00,
+                    "imagem": "./assets/images/leao.jpeg",
+                    "descricao": "Sousplat no formato de leão",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 11,
+                    "nome": "Tigrinho",
+                    "preco": 85.00,
+                    "imagem": "./assets/images/tigre.jpeg",
+                    "descricao": "Sousplat no formato de tigre",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 12,
+                    "nome": "Girafinha",
+                    "preco": 85.00,
+                    "imagem": "./assets/images/girafa.jpeg",
+                    "descricao": "Sousplat no formato de girafa",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 13,
+                    "nome": "Elefantinho",
+                    "preco": 85.00,
+                    "imagem": "./assets/images/elefante.jpeg",
+                    "descricao": "Sousplat no formato de elefante",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 14,
+                    "nome": "Raposinha",
+                    "preco": 85.00,
+                    "imagem": "./assets/images/raposa.jpeg",
+                    "descricao": "Sousplat no formato de raposa",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 15,
+                    "nome": "Ursinho",
+                    "preco": 85.00,
+                    "imagem": "./assets/images/urso.jpeg",
+                    "descricao": "Sousplat no formato de urso",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 16,
+                    "nome": "Sapinho",
+                    "preco": 85.00,
+                    "imagem": "./assets/images/sapo.jpeg",
+                    "descricao": "Sousplat no formato de sapo",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 17,
+                    "nome": "Tartaruguinha",
+                    "preco": 85.00,
+                    "imagem": "./assets/images/tartaruga.jpeg",
+                    "descricao": "Sousplat no formato de tartaruga",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 18,
+                    "nome": "Pandinha",
+                    "preco": 85.00,
+                    "imagem": "./assets/images/panda.jpeg",
+                    "descricao": "Sousplat no formato de panda",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                }
+            ]
+        },
+        {
+            "nome": "Sousplats de Frutas",
+            "imagem": "./assets/images/frutas.png",
+            "produtos": [
+                {
+                    "id": 19,
+                    "nome": "Laranja",
+                    "preco": 30.00,
+                    "imagem": "./assets/images/laranja.jpeg",
+                    "descricao": "Sousplat no modelo de laranja",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 20,
+                    "nome": "Limão",
+                    "preco": 30.00,
+                    "imagem": "./assets/images/limao.jpeg",
+                    "descricao": "Sousplat no modelo de limão",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 21,
+                    "nome": "Maracujá",
+                    "preco": 30.00,
+                    "imagem": "./assets/images/maracuja.jpeg",
+                    "descricao": "Sousplat no modelo de maracujá",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 22,
+                    "nome": "Melancia",
+                    "preco": 30.00,
+                    "imagem": "./assets/images/melancia.jpeg",
+                    "descricao": "Sousplat no modelo de melancia",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                }
+            ]
+        },
+        {
+            "nome": "Souplats de Festas",
+            "imagem": "./assets/images/festas.png",
+            "produtos": [
+                {
+                    "id": 23,
+                    "nome": "Natal",
+                    "preco": 25.00,
+                    "imagem": "./assets/images/natal-red.jpeg",
+                    "descricao": "Sousplat de natal vermelho com detalhes dourados",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 24,
+                    "nome": "Natal",
+                    "preco": 25.00,
+                    "imagem": "./assets/images/natal-verde.jpeg",
+                    "descricao": "Sousplat de natal verde com detalhes vermelhos",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 25,
+                    "nome": "Natal",
+                    "preco": 25.00,
+                    "imagem": "./assets/images/natal-colorido.jpeg",
+                    "descricao": "Sousplat de natal verde com detalhes vermelho, dourado e branco",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 26,
+                    "nome": "Ano Novo",
+                    "preco": 25.00,
+                    "imagem": "./assets/images/ano-novo-branco.jpeg",
+                    "descricao": "Sousplat de ano novo branco com detalhes em dourado",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                },
+                {
+                    "id": 27,
+                    "nome": "Ano Novo",
+                    "preco": 25.00,
+                    "imagem": "./assets/images/ano-novo-cru.jpeg",
+                    "descricao": "Sousplat de ano novo beje com detalhes em dourado",
+                    "link": "produtos-relacionados.html",
+                    "cogigo": 1111111
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,168 @@
+/* Adicionar Produto - Estilo Geral */
+.adicionar-produto-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  padding: 4rem;
+}
+
+.form-adicionar-produto {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-adicionar-produto h2 {
+  font-size: 2rem;
+  color: var(--texto-azul);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.form-adicionar-produto .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-adicionar-produto label {
+  font-size: 1.rem;
+  font-weight: bold;
+  color: var(--texto-secundario);
+  margin-bottom: 0.5rem;
+}
+
+.form-adicionar-produto input,
+.form-adicionar-produto textarea {
+  width: 100%;
+  height: 56px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0,75rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--texto-azul);
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.form-adicionar-produto textarea {
+  height: auto;
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Campo de Imagem */
+.form-adicionar-produto .imagem-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.form-adicionar-produto .imagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  border: 2px dashed var(--texto-azul);
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-bottom: 0.5rem;
+}
+.form-adicionar-produto .imagem:hover {
+  background-color:white;
+  color: var(--texto-azul);
+}
+
+.form-adicionar-produto .imagem img {
+  max-height: 55px;
+  max-width: 100px;
+  object-fit: contain;
+  margin-top: 1rem;
+}
+
+.form-adicionar-produto .imagem p {
+  color: var(--texto-secundario);
+  font-size: 0.9rem;
+  padding: 0.5rem;
+}
+
+.form-adicionar-produto .btn__imagem {
+  width: 100%;
+  height: 80px;
+  font-size: 1rem;
+  color: white;
+  background-color: var(--texto-azul);
+  border: 1px solid var(--texto-azul);
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.form-adicionar-produto .btn__imagem:hover {
+  background-color:white;
+  color: var(--texto-azul);
+}
+
+/* Botões */
+.form-adicionar-produto .button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+.form-adicionar-produto .button button {
+  width: 180px;
+  height: 80px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid var(--texto-azul);
+  border-radius: 4px;
+  color: white;
+  background-color: var(--texto-azul);
+  flex-grow: 1;
+}
+
+.form-adicionar-produto .button button:hover {
+  color: var(--texto-azul);
+  background-color: white;
+}
+
+/* Media Queries para dispositivos móveis */
+@media only screen and (max-width: 900px) {
+  .adicionar-produto-area {
+      padding: 1rem;
+  }
+
+  .form-adicionar-produto {
+      width: 100%;
+      padding: 1.5rem;
+  }
+
+  .form-adicionar-produto h2 {
+      font-size: 1.75rem;
+  }
+
+  .form-adicionar-produto input,
+  .form-adicionar-produto textarea {
+      height: 48px;
+  }
+
+  .form-adicionar-produto textarea {
+      min-height: 100px;
+  }
+
+  .form-adicionar-produto .button button {
+      height: 40px;
+  }
+}

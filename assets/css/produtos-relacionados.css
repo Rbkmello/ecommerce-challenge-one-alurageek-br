@@ -1,0 +1,318 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 0;
+}
+
+header {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.voltar__link {
+  color: var(--texto-azul);
+  text-align: justify;
+  margin: 30px;
+
+}
+
+.exibicao {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  background-color: var(--bg-contato);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  margin: 30px;
+}
+
+.produto__detalhes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* Garante que os cards não saiam da tela em dispositivos menores */
+  gap: 20px;
+  padding: 20px;
+}
+
+.card__exebicao {
+  width: 250px;
+  height: 300px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.card__exebicao h4 {
+  margin-top: 0;
+  /* Remove o espaço superior das headings dentro dos cards */
+  color: var(--texto-azul);
+  /* Cor personalizada do título */
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+
+.card__exebicao h2 {
+  margin-top: 2rem;
+  /* Remove o espaço superior das headings dentro dos cards */
+  margin-bottom: 3rem;
+  color: var(--texto-azul);
+  /* Cor personalizada do título */
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.exibicao__img .produtos__img {
+  width: 100%;
+  /* Faz a imagem ocupar 100% da largura do contêiner */
+  max-width: 400px;
+  /* Limita a largura máxima da imagem */
+  height: auto;
+  /* Mantém a proporção da imagem */
+}
+
+.produto__info,
+.produto__encomenda {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  height: 350px;
+}
+
+.produto__info h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.produto__info h3 {
+  font-size: 1.5rem;
+  text-align: justify;
+  padding: 0.25rem;
+}
+
+.preco {
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--texto-azul);
+}
+
+.produto__encomenda p {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  text-align: justify;
+  padding: 0.25rem;
+}
+
+.produto__info .caracteristicas {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  text-align: justify;
+  padding: 0.15rem;
+}
+
+.produto__info .caracteristicas li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  text-align: justify;
+  padding: 0.15rem;
+}
+
+.produto__encomenda ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.produto__encomenda ul li {
+  margin-bottom: 10px;
+}
+
+.produto__encomenda a.whatsapp {
+  color: var(--texto-azul);
+  text-decoration: none;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.produto__encomenda a.whatsapp:hover {
+  text-decoration: underline;
+}
+
+/* Responsividade: Ajusta para 1 card por linha em telas pequenas */
+@media screen and (max-width: 768px) {
+
+  .produto__info,
+  .produto__encomenda {
+    width: 100%;
+    /* Os cards ocupam 100% da largura em telas pequenas */
+  }
+}
+
+/* CUIDADOS COM O PRODUTO */
+.produto__cuidados {
+  margin: 30px;
+}
+
+.produto__cuidados h3 {
+  margin: 30px;
+  font-size: 1.5rem;
+}
+
+.produto__cuidados p {
+  margin: 30px;
+  font-size: 1.25rem;
+  color: #a8a3a3;
+}
+
+.cuidados {
+  text-align: justify;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* Garante que os cards não saiam da tela */
+  margin: 0 auto;
+}
+
+.card {
+  width: 300px;
+  height: 350px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.card h4 {
+  margin-top: 0;
+  /* Remove o espaço superior das headings dentro dos cards */
+  color: var(--texto-azul);
+  /* Cor personalizada do título */
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  /* Espaçamento entre os itens */
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+    /* Em telas menores, os cards ocupam toda a largura */
+  }
+}
+
+/* PRODUTOS RELACIONADOS */
+
+.produtos__relacionados-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+
+}
+
+.produtos-relacionados {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 2rem 0;
+  background-color: #f9f9f9;
+}
+
+.produtos__titulo {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+
+}
+
+.produto-relacionado {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+  width: 150px;
+
+}
+
+.produto-relacionado img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.produto-relacionado p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  margin-top: 0.5rem;
+}
+
+.produto-relacionado a {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  color: var(--texto-azul);
+  text-decoration: none;
+}
+
+.produto-relacionado a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .produtos__titulo {
+    font-size: 1.5rem;
+  }
+
+  .produtos__relacionados-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .produto-relacionado {
+    width: 100%;
+    padding: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .produtos__titulo {
+    font-size: 1.75rem;
+  }
+
+  .produtos__relacionados-container {
+    flex-direction: row;
+  }
+
+  .produto-relacionado {
+    width: 45%;
+  }
+}

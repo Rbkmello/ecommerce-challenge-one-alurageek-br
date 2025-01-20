@@ -1,0 +1,110 @@
+/* Editar Produto - Estilo Geral */
+.editar-produto-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 2rem;
+}
+
+.form-editar-produto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-editar-produto h2 {
+    font-size: 2rem;
+    color: var(--texto-azul);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.form-editar-produto .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-editar-produto label {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: var(--texto-secundario);
+    margin-bottom: 0.5rem;
+}
+
+.form-editar-produto input {
+    width: 100%;
+    height: 56px;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--texto-azul);
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+/* Botões */
+.form-editar-produto .button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    margin-top: 1.5rem;
+}
+
+.form-editar-produto .button button {
+    width: 180px;
+    height: 50px;
+    font-size: 1.125rem;
+    cursor: pointer;
+    border: 1px solid var(--texto-azul);
+    border-radius: 4px;
+    color: white;
+    background-color: var(--texto-azul);
+    /* Certifica que os botões tenham a mesma largura */
+    flex-grow: 1;
+}
+
+.form-editar-produto .button button:hover {
+    background-color: var(--hover-azul);
+}
+
+/* Alerta de mensagens */
+.alert-message {
+    margin-left: 10px;
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.alert-message.error {
+    color: red;
+}
+
+/* Media Queries para dispositivos móveis */
+@media only screen and (max-width: 900px) {
+    .editar-produto-area {
+        padding: 1rem;
+    }
+
+    .form-editar-produto {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .form-editar-produto h2 {
+        font-size: 1.75rem;
+    }
+
+    .form-editar-produto input {
+        height: 48px;
+    }
+
+    .form-editar-produto .button button {
+        height: 40px;
+    }
+}

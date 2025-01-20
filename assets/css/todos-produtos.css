@@ -1,0 +1,160 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Seção de todos os produtos */
+.todos-produtos-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 2rem;
+}
+
+/* Título da categoria */
+.titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--texto-azul);
+    margin-bottom: 20px;
+}
+
+#categoriaNome {
+    color: var(--texto-azul-escuro);
+}
+
+/* Seção dos produtos */
+.todos-produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+/* Informações do produto */
+.produto__info {
+    background-color: #a72020;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.3s ease;
+    width: 200px;
+    height: 300px;
+}
+
+.produto__info:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.produto__img {
+    width: 110px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.produto__descricao {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--texto-azul);
+    margin-bottom: 10px;
+}
+
+.produto__preco {
+    font-size: 1.2rem;
+    color: #e03f9d;
+    margin-bottom: 15px;
+}
+
+.produto__link {
+    text-decoration: none;
+    color: var(--texto-azul);
+    font-weight: bold;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.produto__link:hover {
+    color: #e03f9d;
+}
+
+.excluir-produto {
+    background: transparent;
+    border: 1px solid var(--texto-azul);
+    color: var(--texto-azul);
+    width: 50%;
+    height: 35px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 0.75rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.excluir-produto:hover {
+    background-color: #e03f9d;
+    color: white;
+}
+
+/* Botões de opções de produtos */
+#botoesOpcoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#botoesOpcoes button {
+    background: transparent;
+    border: 1px solid var(--texto-azul);
+    color: var(--texto-azul);
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#botoesOpcoes button:hover {
+    background-color: var(--texto-azul);
+    color: white;
+}
+
+/* Estilo do botão de adicionar produto */
+.adicionar-produto button {
+    background: transparent;
+    border: 1px solid var(--texto-azul);
+    color: var(--texto-azul);
+    width: 200px; /* Ajustei a largura para combinar com o estilo de outros botões */
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px; /* Adicionei borda arredondada para um visual mais suave */
+    font-size: 1rem; /* Ajustei o tamanho da fonte para ficar mais legível */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.adicionar-produto button:hover {
+    background-color: var(--texto-azul); /* Alterei a cor de fundo ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo do botão de excluir produto */
+.produto__excluir {
+    background: transparent;
+    border: 1px solid var(--texto-azul);
+    color: var(--texto-azul);
+    width: 120px; /* Ajustei a largura para ser mais adequada ao texto */
+    height: 30px; /* Aumentei um pouco a altura para uma área clicável maior */
+    border-radius: 15px; /* Borda mais arredondada para um visual mais suave */
+    padding: 5px 10px; /* Ajustei o preenchimento para um melhor visual */
+    cursor: pointer;
+    font-size: 1rem; /* Tamanho de fonte ajustado para maior legibilidade */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.produto__excluir:hover {
+    background-color: #e03f9d; /* Cor de fundo ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
+}
